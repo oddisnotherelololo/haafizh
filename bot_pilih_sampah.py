@@ -1,6 +1,3 @@
-
- 
-
 import discord
 from discord.ext import commands
 import os
@@ -43,3 +40,4 @@ async def pilih(ctx):
     else:
         await ctx.send("Masukkan dalam anorganik")
 
+bot.run("MASUKKAN TOKEN DI SINI")
